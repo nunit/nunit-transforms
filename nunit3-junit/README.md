@@ -11,6 +11,6 @@ If you would like to run this using Powershell, here is a minimal Powershell scr
     $xml = Resolve-Path TestResult.xml
     $output = Join-Path ($pwd) junit-results.xml
     $xslt = New-Object System.Xml.Xsl.XslCompiledTransform;
-    $xslt.Load("nunit3-xunit.xslt");
+    $xslt.Load("nunit3-junit.xslt");
     $xslt.Transform($xml, $output);
     
