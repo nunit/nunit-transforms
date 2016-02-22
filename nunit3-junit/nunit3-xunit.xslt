@@ -56,7 +56,7 @@
   <xsl:template match="test-suite/failure"/>
 
   <xsl:template match="test-case/reason">
-    <failure message="{./message}"/>
+    <skipped message="{./message}"/>
   </xsl:template>
 
   <xsl:template match="test-suite/reason"/>
