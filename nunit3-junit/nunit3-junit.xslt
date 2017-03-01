@@ -58,6 +58,9 @@
   <xsl:template match="test-case/reason">
     <skipped message="{./message}"/>
   </xsl:template>
+  
+  <xsl:template match="test-case/assertions">
+  </xsl:template>
 
   <xsl:template match="test-suite/reason"/>
 
