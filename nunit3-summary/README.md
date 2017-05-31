@@ -25,6 +25,4 @@ Note that the `--result` option may be repeated to create several reports. If yo
 nunit3-console.exe my.test.dll --result=my.test.summary.txt;transform=text-summary.xslt --result=TestResult.xml
 ```
 
-If you want to use one of the transforms separately, after the test run, you will need to use a program that can apply an XSTL transform to an XML file. Note that the input file must be in NUnit3 format.
-
-> Reviewers: I'd like to offer suggestions here. Ideas? Alternatively, we could supply a program (I have one) or add an option to nunit3 console that lets it do it.
+If you want to use one of the transforms separately, after the test run, you will need to use a program that can apply an XSLT transform to an XML file. Note that the input file must be in NUnit3 format.
