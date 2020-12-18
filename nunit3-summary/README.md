@@ -6,12 +6,19 @@ The following transforms are included:
 
 * `html-report.xslt` creates a report similar to what the console itself displays in html format.
 * `html-summary.xslt` creates the summary report alone in html format.
+* `html-report-bootstrap.xslt` create a report with pass results and output with expand/collapse
 * `text-report.xslt` creates a report similar to what the console itself displays in text format.
 * `text-summary.xslt` creates the summary report alone in text format.'
 
 See our [website](http://nunit.org/nunit-summary) for samples of the report output.
 
 These transforms may be used independently or through the `nunit3-console` `--result` option. When used with `nunit3-console`, use a command-line similar to this:
+
+```
+NOTE: When running nunit3-console in Windows Powershell or Mac you will need to surround the options with quotes
+
+nunit-console.exe my.test.dll --result="my.test.summary.txt;transform=text-summary.xslt"
+```
 
 ```
 nunit3-console.exe my.test.dll --result=my.test.summary.txt;transform=text-summary.xslt
