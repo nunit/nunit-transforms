@@ -1,5 +1,11 @@
 # nunit-transforms
-A collection of contributed XSLT transforms for use with the NUnit result file, organized in folders by contributor.
+
+This project is a collection of contributed XSLT transforms for use with the NUnit result file.
+
+Each transform is found in a separate folder, which contains the transform plus other files
+provided by the author, normally a README and LICENSE. The NUnit team does not maintain these
+contributions. Please read the README for each one and contact the author about any problems or
+other assistance needed with the particular transform.
 
 | Folder         | Purpose                                         | Author     |
 |----------------|-------------------------------------------------|------------|
