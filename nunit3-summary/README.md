@@ -9,8 +9,6 @@ The following transforms are included:
 * `text-report.xslt` creates a report similar to what the console itself displays in text format.
 * `text-summary.xslt` creates the summary report alone in text format.'
 
-See our [website](http://nunit.org/nunit-summary) for samples of the report output.
-
 These transforms may be used independently or through the `nunit3-console` `--result` option. When used with `nunit3-console`, use a command-line similar to this:
 
 ```
