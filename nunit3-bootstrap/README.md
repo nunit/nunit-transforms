@@ -4,7 +4,7 @@ This folder contains a transform based on nunit3-summary/html-report.xslt
 
 The following transform is included:
 
-* `html-report-bootstrap.xslt` create a report with pass results and output with expand/collapse
+* `html-report-bootstrap.xslt` create a report with pass/fail results and output with expand/collapse
 
 
 This transform may be used independently or through the `nunit3-console` `--result` option. When used with `nunit3-console`, use a command-line similar to this:
