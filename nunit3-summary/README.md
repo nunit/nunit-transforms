@@ -23,6 +23,11 @@ nunit-console.exe my.test.dll --result="my.test.summary.txt;transform=text-summa
 ```
 nunit3-console.exe my.test.dll --result=my.test.summary.txt;transform=text-summary.xslt
 ```
+Note: If you are running nunit3-console in Windows Powershell or Mac you will need to add quotes 
+
+```
+nunit3-console.exe my.test.dll --result="my.test.summary.txt;transform=text-summary.xslt"
+```
 
 Naturally, if you use one of the HTML transforms, you will want to change the file type of the result output.
 
@@ -30,6 +35,11 @@ Note that the `--result` option may be repeated to create several reports. If yo
 
 ```
 nunit3-console.exe my.test.dll --result=my.test.summary.txt;transform=text-summary.xslt --result=TestResult.xml
+```
+Note: If you are using nunit3-console in Windows Powershell or Mac you will need to add quotes
+
+```
+nunit3-console.exe my.test.dll --result="my.test.summary.txt;transform=text-summary.xslt" --result=TestResult.xml
 ```
 
 If you want to use one of the transforms separately, after the test run, you will need to use a program that can apply an XSLT transform to an XML file. Note that the input file must be in NUnit3 format.
