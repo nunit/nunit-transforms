@@ -37,6 +37,7 @@
 
   <xsl:template match="command-line"/>
   <xsl:template match="settings"/>
+  <xsl:template match="filter"/>
 
   <xsl:template match="output">
     <system-out>
