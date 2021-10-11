@@ -5,16 +5,17 @@ This project is a collection of contributed XSLT transforms for use with the NUn
 Each transform is found in a separate folder, which contains the transform plus other files
 provided by the author, normally a README and LICENSE. The NUnit team does not maintain these
 contributions. Please read the README for each one and contact the author about any problems or
-other assistance needed with the particular transform.
+other assistance needed with the particular transform. When filing a bug report or pull request,
+please mention the author.
 
 ## Included Contributions
 
 | Folder         | Purpose                                         | Author     |
 |----------------|-------------------------------------------------|------------|
-| [nunit3-junit](https://github.com/nunit/nunit-transforms/tree/master/nunit3-junit) | Converts NUnit3 results to JUnit-style results. | Paul Hicks |
-| [nunit3-summary](https://github.com/nunit/nunit-transforms/tree/master/nunit3-summary) | Converts NUnit3 results to reports similar to those produced by the console runner. | Charlie Poole |
-| [nunit2-summary](https://github.com/nunit/nunit-transforms/tree/master/nunit2-summary) | Converts NUnit2 results to reports similar to those produced by the console runner. | Charlie Poole |
-| [nunit3-bootstrap](https://github.com/nunit/nunit-transforms/tree/master/nunit3-bootstrap) | Converts NUnit3 results to rich html report using Bootstrap. | Jim Scott |
+| [nunit3-junit](https://github.com/nunit/nunit-transforms/tree/master/nunit3-junit) | Converts NUnit3 results to JUnit-style results. | [Paul Hicks](https://github.com/tenwit)<br/>@tenwit |
+| [nunit3-summary](https://github.com/nunit/nunit-transforms/tree/master/nunit3-summary) | Converts NUnit3 results to reports similar to those produced by the console runner. This is intended as an example and will only be updated in case of errors. | [Charlie Poole](https://github.com/charliepoole)<br/>@charliepoole |
+| [nunit2-summary](https://github.com/nunit/nunit-transforms/tree/master/nunit2-summary) | Converts NUnit2 results to reports similar to those produced by the console runner. This is intended as an example and will only be updated in case of errors. | [Charlie Poole](https://github.com/charliepoole)<br/>@charliepoole |
+| [nunit3-bootstrap](https://github.com/nunit/nunit-transforms/tree/master/nunit3-bootstrap) | Converts NUnit3 results to rich html report using Bootstrap. | [Jim Scott](https://github.com/jscott-concord)<br/>@jscott-concord |
 <br>
 
 ## How to Use the Transforms
