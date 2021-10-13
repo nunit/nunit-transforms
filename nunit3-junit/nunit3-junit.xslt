@@ -12,7 +12,7 @@
     <xsl:if test="test-case">
       <testsuite tests="{@testcasecount}" time="{@duration}" errors="{@testcasecount - @passed - @skipped - @failed}" failures="{@failed}" skipped="{@skipped}" timestamp="{@start-time}">
         <xsl:attribute name="name">
-          <xsl:for-each select="ancestor-or-self::test-suite/@name">
+          <xsl:for-each select="ancestor-or-self::test-suite[@type='TestSuite']/@name">
             <xsl:value-of select="concat(., '.')"/>
           </xsl:for-each>
         </xsl:attribute>
