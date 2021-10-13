@@ -1,3 +1,10 @@
+# ARCHIVED PROJECT
+
+**THIS PROJECT IS ARCHIVED. ISSUES AND PRS ARE NO LONGER ACCEPTED.**
+
+If you would like to see it re-activated **and** are willing to volunteer as it's maintainer,
+please contact the NUnit Team.
+
 # NUnit Transforms
 
 This project is a collection of contributed XSLT transforms for use with the NUnit result file.
